@@ -10,6 +10,6 @@ const studentName = "Ghilbran Rafif Mulya"; // TODO: replace this
 
 const studentId = "FS11109397"; // TODO: replace this
 
-const NetlifyDeployUrl = "TODO: replace me"; // TODO: replace this
+const NetlifyDeployUrl = "https://perpusghilbran.netlify.app/"; // TODO: replace this
 
 module.exports = { studentName, studentId, NetlifyDeployUrl };
