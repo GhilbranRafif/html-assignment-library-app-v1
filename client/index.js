@@ -66,10 +66,10 @@ async function handleClickEditButton(bookId) {
 }
 async function handleClickDeleteButton(bookId) {
   try {
-    const confirmation = confirm("Apakah anda yakin ingin menghapus buku ini?");
-    if (!confirmation) {
-      return;
-    }
+    // const confirmation = confirm("Apakah anda yakin ingin menghapus buku ini?");
+    // if (!confirmation) {
+    //   return;
+    // }
     //panggil function deleteBook dengan parameter bookId
     // TODO: answer here
     await deleteBook(bookId);
